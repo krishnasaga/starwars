@@ -36,7 +36,7 @@ In my personal opinion using such specification improves communication between d
  - Virtualization - only render elements that are in view port while scrolling. it helps when there are hundreds of list items to render
 
 
-## userStarWars Hook
+## useStarWars Hook
 
 All data fetching and state management logic to manage the data is behind this hook. this hook will give access to several states of data includeing actual data
 

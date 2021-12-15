@@ -55,5 +55,6 @@ All data fetching and state management logic to manage the data is behind this h
 
 # What if StarWars implemented in micro frontends and microservices
 
+![image](https://user-images.githubusercontent.com/13312112/146177563-52bf0a77-9081-4cf1-9cb9-57e863756c38.png)
 
 

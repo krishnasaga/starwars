@@ -28,6 +28,6 @@
     "react-intersection-observer": "^8.33.0",
     "react-router": "^6.1.1",
     "react-router-dom": "^6.1.1",
-    "theme-ui": "^0.12.1",
+    "theme-ui": "^0.12.1"
   }
 }

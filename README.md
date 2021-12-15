@@ -51,3 +51,9 @@ All data fetching and state management logic to manage the data is behind this h
 ``` 
 
   - 2s deal is added to data fetching to illustrate the loading state. this is done using delay function
+
+
+# What if StarWars implemented in micro frontends and microservices
+
+
+

@@ -66,6 +66,7 @@ export const useStarWars = () => {
     return {
         loadMoreCharacters,
         isLoading,
-        characters
+        characters,
+        pageNumber
     }
 };

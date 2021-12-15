@@ -1,5 +1,4 @@
-import React, {useState, useEffect, useContext} from 'react';
-import {Box, Image, Text} from 'theme-ui';
+import React, {useState, useContext} from 'react';
 
 export const CharacterContext = React.createContext({});
 

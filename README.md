@@ -1,14 +1,11 @@
 # StarWars
 
-This is a demo application listing star wars characters
+This is a demo application listing Star Wars characters
 
 
 ## Technology stack considerations
-
-- The technology stack is not architecture.
-- A library or framework may bring some architecture building blocks. But it should never have been considered architecture. For example, React is not part of your application architecture. But it brings unidirectional data flow, which will be an architecture constraint for the applications that use it.
+- The technology stack is not architecture. A library or framework may bring some architecture building blocks. But it should never have been considered architecture. For example, React is not part of your application architecture. But it brings unidirectional data flow, which will be an architecture constraint for the applications that use it.
 - Chose of the technology stack and architecture decisions should be based on scalability, resilience, and economics. Hence we need evolutionary architecture as economic conditions change the architecture can evolve. For example, you may not need super high availability and super speed performance when your application/feature is in a state when the time to market is a priority, but at some point in future, the application should be highly available and performed for competitive advantage.
-
 
 ### Styled Components
 
@@ -25,6 +22,8 @@ This is a demo application listing star wars characters
 In my personal opinion using such specifications improves communication between designers and developers saves so much time and technical debt in the long run.
 
 ### Theme UI
+
+https://github.com/system-ui/theme-ui
 
 ## Performance considerations
 

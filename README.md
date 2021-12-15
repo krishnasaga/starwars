@@ -11,7 +11,7 @@ Require Nodejs 10 or greater and npm 5 or greater
 
 - `npm install` install all dependencies
 - `npm run build`
-- `npm start` starts the http server in port 9000 by default
+- `npm start` http server will start on port 9000
 
 ### Watch mode
 

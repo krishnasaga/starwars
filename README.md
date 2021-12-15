@@ -1,7 +1,21 @@
 # StarWars
 
+
 This is a demo application listing Star Wars characters
 
+## How to run
+
+Require Nodejs 10 or greater and npm 5 or greater
+
+**You will not be having any dependency on API server to run this as data is mocked as static json files within the repository**
+
+- `npm install` install all dependencies
+- `npm run build`
+- `npm start` starts the http server in port 9000 by default
+
+### Watch mode
+
+`npm run start:dev`
 
 ## Technology stack considerations
 - The technology stack is not architecture. A library or framework may bring some architecture building blocks. But it should never have been considered architecture. For example, React is not part of your application architecture. But it brings unidirectional data flow, which will be an architecture constraint for the applications that use it.
@@ -51,19 +65,6 @@ All data fetching and state management logic to manage the data is behind this h
 
   - 2s deal is added to data fetching to illustrate the loading state. this is done using delay function
 
-## How to run
-
-Require Nodejs 10 or greater and npm 5 or greater
-
-**You will not be having any dependency on API server to run this as data is mocked as static json files within the repository**
-
-- `npm install` install all dependencies
-- `npm run build`
-- `npm start` starts the http server in port 9000 by default
-
-### Watch mode
-
-`npm run start:dev`
 
 ## What if StarWars implemented in micro frontends and microservices
 

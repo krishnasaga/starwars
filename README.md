@@ -46,8 +46,7 @@ https://github.com/system-ui/theme-ui
 - Progressive loading - Progressively increase the image quality
 
 ### Optimize List
-- Insertion of images to the dom can be differed and use a placeholder. This helps more when using server render
-- Progressive loading - Progressively increase the image quality
+- Can use virtualization by rendering only list items that are in view port
 
 ## useStarWars Hook
 

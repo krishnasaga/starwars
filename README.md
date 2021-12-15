@@ -35,7 +35,7 @@ In my personal opinion using such specifications improves communication between 
 - Insertion of images to the dom can be differed and use a placeholder. This helps more when using server render
 - Progressive loading - Progressively increase the image quality
 
-## userStarWars Hook
+## useStarWars Hook
 
 All data fetching and state management logic to manage the data is behind this hook. this hook will give access to several states  including actual data
 
@@ -54,5 +54,6 @@ All data fetching and state management logic to manage the data is behind this h
 
 # What if StarWars implemented in micro frontends and microservices
 
+![image](https://user-images.githubusercontent.com/13312112/146177563-52bf0a77-9081-4cf1-9cb9-57e863756c38.png)
 
 

@@ -9,7 +9,7 @@ Require Nodejs 10 or greater and npm 5 or greater
 
 **You will not be having any dependency on API server to run this as data is mocked as static json files within the repository**
 
-- `npm install` install all dependencies
+- `npm install` install dependencies
 - `npm run build`
 - `npm start` http server will start on port 9000
 

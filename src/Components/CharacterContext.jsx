@@ -30,14 +30,14 @@ export const loadCharacters = ({pageNumber = 1}) => {
         .then(response => response.json());
 }
 
-export const delay = (promise) => {
+export const delay = (time,promise) => {
     return new Promise((resolve) => {
         setTimeout(() => {
             promise
                 .then( data => {
                     resolve(data);
                 });
-        },2000);
+        },time);
     });
 }
 
@@ -53,7 +53,7 @@ export const useStarWars = () => {
 
     const loadMoreCharacters = () => {
         setIsLoading(true);
-        delay(loadCharacters({pageNumber: pageNumber + 1}))
+        delay(2000,loadCharacters({pageNumber: pageNumber + 1}))
             .then((data) => {
                 setCharacters((state) => Object.assign({},
                     state,

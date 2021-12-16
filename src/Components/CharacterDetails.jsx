@@ -15,9 +15,9 @@ export const CharacterDetails = () => {
             <Image src={img}/>
         </Box>
         <Box bg={'primary'} p={'5'} >
-            <Text as={'h1'}>{name}</Text>
-            <Text as={'p'} my={10}>{description}</Text>
-             <Text as={'h3'} my={10} >AFFILIATION: {affiliation}</Text>
+            <Text as={'h1'} data-testid={"name"}>{name}</Text>
+            <Text as={'p'} my={10} data-testid={"description"} >{description}</Text>
+             <Text as={'h3'} my={10} data-testid={"affiliation"} >AFFILIATION: {affiliation}</Text>
         </Box>
     </Grid>;
 };

@@ -33,6 +33,7 @@
     "webpack-dev-server": "^4.6.0"
   },
   "dependencies": {
+    "@testing-library/react-hooks": "^7.0.2",
     "@theme-ui/presets": "^0.12.1",
     "copy-webpack-plugin": "^10.1.0",
     "cypress": "^9.1.1",

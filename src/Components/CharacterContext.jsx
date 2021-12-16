@@ -5,7 +5,7 @@ export const CharacterContext = React.createContext({});
 export const CharacterContextProvider = ({children}) => {
     const [characters, setCharacters] = useState(null);
     const [pageNumber, setPageNumber] = useState(0);
-    const [isLoading, setIsLoading] = useState(0);
+    const [isLoading, setIsLoading] = useState(false);
 
     return (<CharacterContext.Provider
         value={{

@@ -6,17 +6,19 @@ import { CharacterContextProvider} from './Components/CharacterContext';
 import {
   BrowserRouter as Router,
   Routes,
-    Route,
+  Route,
   Link,
 } from "react-router-dom";
 import {Grid,Box, Text, ThemeProvider} from "theme-ui";
-import { swiss, dark } from '@theme-ui/presets';
+import dark  from './themes/dark';
+import swiss from './themes/default';
+
 import { Switch } from 'theme-ui'
 
 const App =  () => {
     const [ darkTheme, setDarkTheme ] = useState(false);
 
-    return <ThemeProvider theme={ darkTheme === true ? dark : swiss }>
+    return <ThemeProvider theme={ darkTheme ? dark : swiss }>
         <Router>
             <Grid columns={['10fr 2fr']} bg={'background'}>
                 <Text sx={{textAlign: 'center'}} as={'h1'}> X Men</Text>

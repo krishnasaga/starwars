@@ -6,7 +6,7 @@ module.exports = {
     devtool: false,
     entry: {
         index: {
-            import: './src/index.js',
+            import: './src/index.tsx',
             dependOn: 'renderer',
         },
         renderer: ['react-dom', 'react'],
@@ -29,12 +29,12 @@ module.exports = {
         port: 9000,
     },
     resolve: {
-        extensions: ['.js', '.jsx']
+        extensions: ['.js', '.jsx','.tsx']
     },
     module: {
         rules: [
             {
-                test: /\.(jsx|js)$/,
+                test: /\.(jsx|js|tsx)$/,
                 include: path.resolve(__dirname, 'src'),
                 exclude: /node_modules/,
                 use: [{

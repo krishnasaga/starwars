@@ -3,7 +3,8 @@ const config = {
         ['@babel/preset-env', {
             "targets": "defaults"
         }],
-        '@babel/preset-react'
+        '@babel/preset-react',
+        "@babel/preset-typescript"
     ]
 };
 

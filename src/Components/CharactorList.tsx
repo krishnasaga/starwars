@@ -5,12 +5,14 @@ import {useStarWars} from "./CharacterContext";
 
 import { Link } from "react-router-dom";
 import { Loader } from './CharacterLoader';
+import { Character } from "../Types";
 
-export const CharactersList = ({data}) => {
+export const CharactersList = () => {
     const { characters } = useStarWars();
+    const characterArray : Character[] = Object.values(characters || {});
     return <Box>
         {characters ?  <Grid data-test-id="list" columns={[1,4]} bg={'background'}>
-            { Object.values(characters).map((data)=>{
+            { characterArray.map((data)=>{
             const { id } = data;
             return <Link to={`/xmen/${id}`}>
                 <CharactersListItem key={id} data={data}/>

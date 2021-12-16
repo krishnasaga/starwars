@@ -11,7 +11,9 @@ export const CharacterDetails = () => {
     const data = characters ? characters[id] : {};
     const { img,name,description,affiliation,powers} = data;
     return <Grid columns={[1,2]}>
-        <Box bg={'highlight'} p={'5'} ><Image src={img}/></Box>
+        <Box bg={'highlight'} p={'5'} >
+            <Image src={img}/>
+        </Box>
         <Box bg={'primary'} p={'5'} >
             <Text as={'h1'}>{name}</Text>
             <Text as={'p'} my={10}>{description}</Text>

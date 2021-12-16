@@ -11,6 +11,7 @@
   },
   "jest": {
     "testEnvironment": "jsdom",
+    "rootDir": "src",
     "transform": {
       "\\.[jt]sx?$": "babel-jest"
     }
